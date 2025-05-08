@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4B0082; /* Dark Purple */
+    font-family: 'Poppins', sans-serif; /* Soft Calm Font */
+    flex-direction: column;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-family: 'Dancing Script', cursive; /* Romantic Font */
+    font-size: 3em;
+    color: #FFD1DC; /* Soft Pink */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.yes-button, .no-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.yes-button:hover, .no-button:hover {
+    background-color: #9b59b6;
+}
+
+.gif_container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#message, #steam-message {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: #B0E0E6; /* Soft Pastel Blue */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    text-align: center;
+}
